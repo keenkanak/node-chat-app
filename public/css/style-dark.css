@@ -7,12 +7,12 @@
 }
 a{
     cursor: pointer;
-    color:#777;
+    color:white;
     text-decoration: none;
 }
 
 a:hover{
-    color:orange;
+    color:grey;
 }
 html {
     font-size: 16px;
@@ -58,9 +58,9 @@ input,select,textarea {
 button {
     cursor: pointer;
     padding: 12px;
-    background:rgb(49, 49, 49);
+    background:#892cdc;
     border: none;
-    color:rgb(173, 173, 173);
+    color:white;
     font-size: 16px;
     border-radius: 4px;
     transition: background .5s ease;
@@ -117,12 +117,12 @@ button:disabled {
     height: 100vh;
     color: white;
     background: rgb(49, 49, 49);
-    width: 5vw;
+    width: 10vw;
     overflow-y: scroll;
     transition:all 0.5s ease;
 }
 .chat__sidebar:hover {
-    width: 17vw;    
+    width: 12vw;    
 }
 
 /* Chat styles */
@@ -157,9 +157,6 @@ button:disabled {
     font-size: 14px;
 }
 
-.message a {
-    color: #0070CC;
-}
 .location{
     margin-bottom: 16px; 
 }
@@ -196,7 +193,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #2c2f3a;
+    background:#892cdc;
     padding: 24px;   
 }
 
@@ -212,6 +209,12 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+.users:nth-child(2n+1) {
+    background:#892cdc;
+    padding-bottom: 10px;
+}
+
 
 ::-webkit-scrollbar {
     width: 5px;

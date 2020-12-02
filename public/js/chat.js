@@ -63,7 +63,7 @@ socket.on('locationMessage', (url) => {       //receives location sent from the 
 
 socket.on('roomData', ({ room, users }) => {
     const html = Mustache.render(sidebarTemplate, {
-        room,
+        room: room,
         users
     })
     $sidebar.innerHTML = html
