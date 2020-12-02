@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type='text/css' href='../css/style-dark.css'>
     <link rel='icon' type='image/png' href='./img/favicon.png'>
+    <link rel="stylesheet" type='text/css' href='../css/style-dark.css'>
+
+
 </head>
 
 <body>
+
     <div class='chat'>
         <div id='sidebar' class='chat__sidebar'>
 
@@ -25,16 +28,15 @@
 
         </div>
     </div>
-
     <script id='message-template' type='text/html'>
-            <div class = 'message'>
-                <p>
-                    <span class ='message__name'>{{username}}</span>
-                    <span class = 'message__meta'>{{createdAt}}</span>
-                </p>
-                <p>{{message}} </p>
-            </div>
-    </script>
+        <div class='message'>
+            <p>
+                <span class='message__name'>{{ username }}</span>
+                <span class='message__meta'>{{ createdAt }}</span>
+            </p>
+            <p>{{ message }} </p>
+        </div>
+        </script>
     <script id='location-template' type='text/html'>
        <div class = 'location'>
             <p>
