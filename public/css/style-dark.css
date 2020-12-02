@@ -7,7 +7,7 @@
 }
 a{
     cursor: pointer;
-    color:white;
+    color:orange;
     text-decoration: none;
 }
 
@@ -25,7 +25,6 @@ input {
 body {
     background-color: black;
     line-height: 1.4;
-
     font-family: Helvetica, Arial, sans-serif;
     color: #FFFFFF;
 }
@@ -38,14 +37,15 @@ label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: #777;
+    color:white;
 }
 
 input {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(35,35,35);
     padding: 12px;
     outline-style: hidden;
     transition:all 0.5s ease;
+    border:2px solid black;
 }
 
 input:hover {
@@ -58,7 +58,7 @@ input,select,textarea {
 button {
     cursor: pointer;
     padding: 12px;
-    background:#892cdc;
+    background:orange;
     border: none;
     color:white;
     font-size: 16px;
@@ -83,7 +83,7 @@ button:disabled {
 /* Join Page Styles */
 
 .centered-form {
-    background: #333744;
+    background:rgb(29, 29, 29);
     width: 100vw;
     height: 100vh;   
     display: flex;
@@ -93,7 +93,7 @@ button:disabled {
 
 .centered-form__box {
     box-shadow: 0px 0px 17px 1px #1D1F26;
-    background: #F7F7FA;
+    background: black;
     padding: 24px;
     width: 250px;
 }
@@ -116,13 +116,14 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: white;
-    background: rgb(49, 49, 49);
-    width: 10vw;
+    background: rgb(35, 35, 35);
+    width: 11vw;
     overflow-y: scroll;
     transition:all 0.5s ease;
 }
 .chat__sidebar:hover {
-    width: 12vw;    
+    width: 14vw; 
+    background: rgb(29, 29, 29);   
 }
 
 /* Chat styles */
@@ -193,7 +194,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background:#892cdc;
+    background:orange;
     padding: 24px;   
 }
 
@@ -210,24 +211,18 @@ button:disabled {
     padding: 12px 24px 0 24px;
 }
 
-.users:nth-child(2n+1) {
-    background:#892cdc;
-    padding-bottom: 10px;
-}
-
-
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 4px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: rgb(173, 173, 173);
+    background: grey;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background:black; 
+    background:orange; 
   }
   
   /* Handle on hover */
