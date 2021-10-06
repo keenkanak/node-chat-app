@@ -1,7 +1,6 @@
 A complete end to end chat application created using the socket.io library in Node.js.
 
 Stack:
-
  Front-end: HTML, CSS, JavaScript 
  
  Back-end:  Node.js, Express, Socket.io (JavaScript Library for websockets).
