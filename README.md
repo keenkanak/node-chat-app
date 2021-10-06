@@ -5,6 +5,7 @@ Stack:
  Back-end:  Node.js, Express, Socket.io(JavaScript Library for websockets).
 
 THE JOINING PAGE
+
 Enter a username and a random room number to join
 
 ![image](https://user-images.githubusercontent.com/72697334/136284848-68fa1c05-6585-4fde-8374-b929b5d03a71.png)
